@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Song+Myung&display=swap');
+a{text-decoration: none;}
+
+ul, li{list-style: none;}
+*{margin: 0; padding: 0;}
+header{
+    width: 100%;
+    position: absolute;
+    height: 65px;
+    z-index: 1;
+    background: #4d5f68;
+    /* background: #853d2b; */
+    /* background:#4d5f68; */
+    /* background:#81aab3c0; */
+    /* background:#B4CCD4; */
+    /* background:#D3E1E6; */
+}
+.logo-img{
+    position: relative;
+    width: 3%;
+    float: right;
+    margin-top: 13px;
+    padding-right:32px;
+}
+.logo-img1{
+    position: relative;
+    width: 4.5%;
+    float: right;
+    margin-top: 2px;
+    padding-right:20px;
+}
+section{
+    width:100%;  
+    height: 100vh;
+}
+.OneSection{
+    background-size:cover; 
+    width:100%;  
+    display: block;
+    height: 100vh;
+    background-image: url(../images/mainIMAGE.png); 
+}
+.bg{
+    background-color:rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100%;
+    position: absolute;
+}
+.bg>p{
+    font-family: 'Song Myung', serif;
+    color: #4d5f68c0;
+    text-align: center;
+    font-size: 130px;
+    transition: .7s;
+    margin-top: 200px;
+}
+.bg>p:hover{
+    color: white;
+}
+.bg>.bg__p{
+    font-family: 'Song Myung', serif;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 132px;
+}
+.bg>.bg__p:hover{
+    padding-top: 40px;
+    color: rgb(204, 204, 204);
+}
+.line{
+    border-bottom: 21px solid black;
+    display: block;
+}
+
+
+/* 여기서부터 목업 페이지 시작 */
+.mockup{
+    background:#4d5f68;
+    position: relative;
+}
+.mockup>img{
+    width: 90%;
+    position: absolute;
+    left: 4.4%;
+    top: 0.5%;
+}
+.everybox{
+    display: flex;
+    width: 951px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url(../images/computerbackgroundImg.jpg);
+    height: 593px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.everybox>div img{
+    width: 70px;
+    height: 70px;
+    float: left; 
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+    transition:.3s;
+}
+.everybox>div{
+    margin: 10px;
+}
+.click:hover img{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);   
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+}
+#folderpage{
+    width: 70%;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 25%;
+    display: none;
+    height: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/folderpage.png);
+}
+.pagein{
+    width: 30%;
+    margin-top: 80px;
+    margin-left:160px ;
+}
